@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Small Medium</title>
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <style>
+      #contents-1 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-1-content {
+        padding-top: 0.5em;
+      }
+      #contents-1-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-1-content-title {
+        font-size: 1.2em;
+      }
+
+      /* content 2 */
+      #contents-2 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-2-content {
+        padding-top: 0.5em;
+      }
+      #contents-2-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-2-content-title {
+        font-size: 1.2em;
+      }
+      /* content 3 */
+      #contents-3 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-3-content {
+        padding-top: 0.5em;
+      }
+      #contents-3-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-3-content-title {
+        font-size: 1.2em;
+      }
+
+      /* content 4 */
+      #contents-4 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-4-content {
+        padding-top: 0.5em;
+      }
+      #contents-4-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-4-content-title {
+        font-size: 1.2em;
+      }
+
+      /* content 5 */
+      #contents-5 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-5-content {
+        padding-top: 0.5em;
+      }
+      #contents-5-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-5-content-title {
+        font-size: 1.2em;
+      }
+      /* content 6 */
+      #contents-6 {
+        padding: 1em;
+        margin: 1em 0;
+      }
+      #contents-6-content {
+        padding-top: 0.5em;
+      }
+      #contents-6-number {
+        color: gray;
+        opacity: 0.5;
+      }
+      #contents-6-content-title {
+        font-size: 1.2em;
+      }
+      #article {
+        background-color: #f7f9fa;
+        padding: 1em 2em;
+      }
+      #discover-and-footer {
+        padding: 1em 2em;
+      }
+      #discover-and-footer-topic-badge-1 {
+        margin: 0.5em 0;
+      }
+      #discover-and-footer-title-subsription {
+        margin-top: 0.5em;
+      }
+      #article-1-content {
+        background-color: darkgoldenrod;
+      }
+      #article-1-image {
+        background-color: darkturquoise;
+      }
+      #article-2-content {
+        background-color: darkslateblue;
+      }
+      #article-2-image {
+        background-color: darkslategray;
+      }
+      @media screen and (max-width: 1400px) {
+        #carousel-right {
+          display: none;
+        }
+        #carousel {
+          padding: 2em 1em;
+        }
+        #carousel-left-caption {
+          padding: 0 1em;
+        }
+        #carousel-left-button {
+          margin: 1em 0;
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        #carousel {
+          margin: 2em 0;
+        }
+        #carousel-left-button {
+          width: 20%;
+          margin: 1em 0;
+        }
+        #wave {
+          margin-top: -400px;
+        }
+        #contents-1 {
+          padding: 1em;
+        }
+        #contents-2 {
+          padding: 1em;
+        }
+        #contents-3 {
+          padding: 1em;
+        }
+        #contents-4 {
+          padding: 1em;
+        }
+        #contents-5 {
+          padding: 1em;
+        }
+        #contents-6 {
+          padding: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="navbar" style="background-color: #fbe192">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fbe192">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <a class="navbar-brand" href="#">
+            <img src="medium.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" />
+            Small Medium
+          </a>
+          <ul class="nav justify-content-end navbar-nav collapse navbar-collapse" id="navbarTogglerDemo03">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Write</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <button class="btn btn-secondary" type="submit" style="border-radius: 24px">Get Started</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr style="margin: 0px 0px; height: 3px; opacity: 0.5; background-color: black" />
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div id="carousel" class="row">
+                <div id="carousel-left" class="col">
+                  <div class="row">
+                    <h1 class="display-3">
+                      <strong>Where Good Ideas Find You</strong>
+                    </h1>
+                  </div>
+                  <div id="carousel-left-caption" class="row">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odio similique voluptatum illo enim deserunt consequatur animi nihil nobis mollitia ut rem maiores earum, iste autem, in explicabo dolores tempore!
+                      <a href="#">Learn More</a>
+                    </p>
+                  </div>
+                  <div id="carousel-left-button" class="row">
+                    <button class="btn btn-warning">Get Started</button>
+                  </div>
+                </div>
+                <div id="carousel-right" class="col">
+                  <img src="janita-sumeiko-ZK1WQDMQvik-unsplash.jpg" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,256L1440,96L1440,320L0,320Z"></path></svg>
+    </section>
+
+    <section id="trending">
+      <div class="container">
+        <div id="title" class="row">
+          <h3>
+            <img src="medium.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" />
+            Trending on Small Medium
+          </h3>
+        </div>
+        <div id="contents" class="row">
+          <div id="contents-1" class="col-md-4">
+            <div class="row">
+              <div id="contents-1-number" class="col-2">
+                <h2>
+                  <strong>01</strong>
+                </h2>
+              </div>
+              <div id="contents-1-content" class="col">
+                <div id="contents-1-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-1-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-1-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contents-2" class="col-md-4">
+            <div class="row">
+              <div id="contents-2-number" class="col-2">
+                <h2>
+                  <strong>02</strong>
+                </h2>
+              </div>
+              <div id="contents-2-content" class="col">
+                <div id="contents-2-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-2-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-2-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contents-3" class="col-md-4">
+            <div class="row">
+              <div id="contents-3-number" class="col-2">
+                <h2>
+                  <strong>03</strong>
+                </h2>
+              </div>
+              <div id="contents-3-content" class="col">
+                <div id="contents-3-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-3-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-3-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contents-4" class="col-md-4">
+            <div class="row">
+              <div id="contents-4-number" class="col-2">
+                <h2>
+                  <strong>04</strong>
+                </h2>
+              </div>
+              <div id="contents-4-content" class="col">
+                <div id="contents-4-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-4-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-4-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contents-5" class="col-md-4">
+            <div class="row">
+              <div id="contents-5-number" class="col-2">
+                <h2>
+                  <strong>05</strong>
+                </h2>
+              </div>
+              <div id="contents-5-content" class="col">
+                <div id="contents-5-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-5-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-5-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="contents-6" class="col-md-4">
+            <div class="row">
+              <div id="contents-6-number" class="col-2">
+                <h2>
+                  <strong>06</strong>
+                </h2>
+              </div>
+              <div id="contents-6-content" class="col">
+                <div id="contents-6-content-author" class="row">
+                  <p style="margin-bottom: 0">
+                    <img src="medium.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top" />
+                    <strong>Adam in Skilvul</strong>
+                  </p>
+                </div>
+                <div id="contents-6-content-title" class="row">
+                  <p style="margin-bottom: 0">
+                    <strong>How to use bootstrap for creating a website</strong>
+                  </p>
+                </div>
+                <div id="contents-6-content-time-and-date" class="row">
+                  <p>June 13 | 10 min read <i class="bi bi-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="margin: 0px 0px; height: 3px; opacity: 0.5; background-color: black" />
+
+    <section id="multi-section">
+      <div class="container">
+        <div class="row">
+          <div id="article" class="col-md-8">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <img src="medium.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top" style="margin-right: 0.5em" />
+                      Adam in Skilvul
+                    </h5>
+                    <p class="card-text" style="margin-bottom: 0">
+                      <strong>How to use bootstrap for creating a website</strong>
+                    </p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-text row">
+                      <div class="col-md-8">
+                        <small class="text-muted">June 13 | 10 min read</small>
+                      </div>
+                      <div class="col-md-4 text-end">
+                        <i class="bi bi-bookmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="janita-sumeiko-ZK1WQDMQvik-unsplash.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <img src="medium.png" alt="Logo" width="25" height="25" class="d-inline-block align-text-top" style="margin-right: 0.5em" />
+                      Adam in Skilvul
+                    </h5>
+                    <p class="card-text" style="margin-bottom: 0">
+                      <strong>How to use bootstrap for creating a website</strong>
+                    </p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card-text row">
+                      <div class="col-md-8">
+                        <small class="text-muted">June 13 | 10 min read</small>
+                      </div>
+                      <div class="col-md-4 text-end">
+                        <i class="bi bi-bookmark"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="janita-sumeiko-ZK1WQDMQvik-unsplash.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="discover-and-footer" class="col-md-4">
+            <div id="discover-and-footer-title" class="row">
+              <h5>Discover More of What Matters to You</h5>
+            </div>
+            <div id="discover-and-footer-topic-badge" class="row align-items-center">
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div id="discover-and-footer-topic-badge-1" class="col-3">
+                <button type="button" class="btn btn-outline-secondary position-relative">
+                  Topic
+                  <!-- <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span> -->
+                </button>
+              </div>
+              <div class="col-6">
+                <a href="#">See All Topics</a>
+              </div>
+            </div>
+            <div id="discover-and-footer-title-subsription">
+              <h5>Subscribe for More</h5>
+              <p>Get Notified when We Publis Something New</p>
+            </div>
+            <div id="discover-and-footer-form" class="row">
+              <div class="col">
+                <form class="row g-3">
+                  <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Password</label>
+                    <input type="password" class="form-control" id="inputPassword2" placeholder="adam@gmail.com" />
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <!-- <div class="col">
+                <input type="text" placeholder="david@gmail.com" />
+              </div>
+              <div class="col">
+                <button>Submit</button>
+              </div> -->
+            </div>
+            <hr style="height: 3px; opacity: 0.5; background-color: black" />
+            <div id="footer" class="row align-items-center">
+              <div id="footer-help" class="col-2">
+                <small>
+                  <strong>Help</strong>
+                </small>
+              </div>
+              <div id="footer-status" class="col-2">
+                <small>
+                  <strong>Status</strong>
+                </small>
+              </div>
+              <div id="footer-writer" class="col-2">
+                <small>
+                  <strong>Writer</strong>
+                </small>
+              </div>
+              <div id="footer-blog" class="col-2">
+                <small>
+                  <strong>Blog</strong>
+                </small>
+              </div>
+              <div id="footer-privasy" class="col-2">
+                <small>
+                  <strong>Privasy</strong>
+                </small>
+              </div>
+              <div id="footer-term" class="col-2">
+                <small>
+                  <strong>Term</strong>
+                </small>
+              </div>
+              <div id="footer-about" class="col-2">
+                <small>
+                  <strong>About</strong>
+                </small>
+              </div>
+              <div class="row">
+                <p>Created with Love by Adam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
